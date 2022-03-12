@@ -2,7 +2,6 @@ package com.game.cricket.service;
 
 import com.game.cricket.dto.PlayerDTO;
 import com.game.cricket.dto.ResponseDTO;
-import com.game.cricket.model.Player;
 import org.springframework.stereotype.Component;
 
 @Component

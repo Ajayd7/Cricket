@@ -1,13 +1,12 @@
 package com.game.cricket.dto;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.game.cricket.model.Player;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
 public class PlayerDTO {
 
+    private Long id;
     private String name;
     private int age;
     private String playerType;
